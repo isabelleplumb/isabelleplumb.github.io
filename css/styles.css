@@ -1,5 +1,5 @@
 body{
-	margin:0px;
+	margin:auto;
 	border:black 1px solid;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:100%;
@@ -163,11 +163,28 @@ p.slant{
     clear: both;
 }
 
-/*@media screen and (max-width:600px){
-	header nav ul {
-		width:2px
+@media screen and (max-width:600px){
+	header #logo img {
+		width:100%;
+		padding-left:0;
+		padding-right:0;
+		margin-bottom:10px;
+		margin-top:10px;
 	}
-}*/
+	header nav ul{
+		width:100%;
+	}
+	header nav ul{
+		width:100%;
+	}
+	header nav ul li{
+		display:block;
+		width:100%;
+		overflow:auto;
+		margin:0px;
+	}
+
+}
 
 
 
